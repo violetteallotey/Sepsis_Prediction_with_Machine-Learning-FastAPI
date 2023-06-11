@@ -93,9 +93,12 @@ The both long command-lines have a same structure, they pipe multiple commands u
 ![ezgif com-crop](https://github.com/ikoghoemmanuell/Machine-Learning-API-using-FastAPI/assets/102419217/df0ed5a8-2daf-47ca-a4f5-e6128429d5d3)
 
 ## API Endpoints
-GET / - Returns information about the API.
-POST /predict - Makes a prediction for a single patient.
-POST /predict/batch - Makes predictions for multiple patients.
+* GET / - Returns information about the API.
+
+* POST /predict - Makes a prediction for a single patient.
+
+* POST /predict/batch - Makes predictions for multiple patients.
+
 For detailed information on request and response formats, refer to the API documentation accessible at http://localhost:8000/docs when the API server is running.
 
 ## Deployment and Scaling
