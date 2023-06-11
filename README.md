@@ -44,6 +44,11 @@ The data for this project is in a csv format. The following describes the column
 | Insurance   | N/A    | If a patient holds a valid insurance card                                     |
 | Sepssis     | True   | Positive: if a patient in ICU will develop a sepsis , and Negative: otherwise |
 
+## Features
+Fast and efficient prediction of sepsis using a machine learning model
+API endpoints for single patient prediction and batch prediction
+Dockerized deployment for easy setup and portability
+
 ## Setup
 
 Install the required packages to be able to run the evaluation locally.
@@ -86,6 +91,15 @@ The both long command-lines have a same structure, they pipe multiple commands u
 ## Screenshots
 ![ezgif com-optimize (1)](https://github.com/ikoghoemmanuell/Machine-Learning-API-using-FastAPI/assets/102419217/a8352c5f-afea-43b1-8bf5-c24607cf3481)
 ![ezgif com-crop](https://github.com/ikoghoemmanuell/Machine-Learning-API-using-FastAPI/assets/102419217/df0ed5a8-2daf-47ca-a4f5-e6128429d5d3)
+
+## API Endpoints
+GET / - Returns information about the API.
+POST /predict - Makes a prediction for a single patient.
+POST /predict/batch - Makes predictions for multiple patients.
+For detailed information on request and response formats, refer to the API documentation accessible at http://localhost:8000/docs when the API server is running.
+
+## Deployment and Scaling
+The API can be deployed and scaled using Docker. By containerizing the application, we achieve portability and consistency across different environments.
 
 ## Resources
 
