@@ -2,7 +2,7 @@
 [![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/violetteallotey?tab=repositories)
 [![View My Profile](https://img.shields.io/badge/MEDIUM-Article-purple?logo=Medium)](https://medium.com/@violetteallotey/fastapi-spells-conjuring-predictive-powers-for-sepsis-detection-adfd22866b77)
 [![Docker App](https://img.shields.io/badge/Docker-App-yellow)](https://huggingface.co/spaces/Adoley/Sepsis-Prediction-Using-FastAPI)
-[![Website](https://img.shields.io/badge/My-Website-darkgreen)](https://adoley.my.canva.site/)
+[![Website Portfolio](https://img.shields.io/badge/My-Website-darkgreen)](https://adoley.my.canva.site/)
 
 Develop a Machine Learning API (Application Programming Interface) using FastAPI.
 
